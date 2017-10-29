@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+	
+}
+.page-content {
+	width: 1275px;
+	margin: 0 auto;
+}
+.top-block {
+	width: 1275px;
+	height: 900px;
+	text-align: center;
+	background: url(img/photo.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.logo-block {
+	padding-top: 62px;
+	padding-left: 150px;
+	width: 490px;
+	height: 253px;
+	margin: 0 auto;
+	background: url(img/greenBg.png);
+	background-repeat: no-repeat;
+}
+.logo-block {
+	display: inline-block;
+}
+.logo-text {
+	position: relative;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    padding-left: 90px;
+    font-family: Clarendon BT;
+    font-size: 40px;
+    font-weight: bold;
+    color: #3D6489;
+}
+.logo-text::before {
+	position: absolute;
+	content:"";
+	left: 0;
+	top: 0;
+	width: 95px;
+	height: 90px;
+	background: url(img/logo.png);
+	-webkit-background-size: contain;
+	     -o-background-size: contain;
+	        background-size: contain;
+	
+}
+.logo-text--decor {
+	display: inline-block;
+	color: black;
+	margin-left: -5px;
+}
+.main-block {
+	position: relative;
+}
+.main-block--blueBg {
+	position: relative;
+	z-index: 10;
+	margin-top: -360px;
+	background: url(img/blueBg.png);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-repeat: no-repeat;
+	height: 1335px;
+	width: 1275px;
+}
+.OpenHouse-block {
+	position: relative;
+	top: -1150px;
+	z-index: 5;
+}
+.photosDecor-block {
+	position: absolute;
+	top: 210px;
+    z-index: 15;
+}
+.strips-block {
+	position: absolute;
+	top: 520px;
+	z-index: 20;
+}
+.footer {
+	position: absolute;
+	z-index: 20;
+	top: 1700px;
+}
